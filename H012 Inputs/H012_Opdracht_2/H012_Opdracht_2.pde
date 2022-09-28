@@ -30,9 +30,11 @@ void draw (){
 }
 
 
+
 void keyReleased(){
- if(keyCode == 32){
+ if(keyCode == 32 && racing){
   aantalSpaties++; 
+ 
  }
   
 }
